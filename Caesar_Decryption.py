@@ -53,4 +53,4 @@ except FileNotFoundError: #printing an error when the file is not found
     print(f"Cannot open \"{sys.argv[1]}\". Sorry about that.")
 
 except IndexError: #printing an error when no file name is input
-    print("Sorry. Didn't catch the file name that time!")
+    print("Sorry. Didn't catch the file name!")
